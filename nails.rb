@@ -2,11 +2,12 @@ require "formula"
 
 class Nails < Formula
   homepage "http://nailsapp.co.uk"
-  url "https://github.com/nailsapp/command-line-tool/archive/0.4.2.tar.gz"
-  sha1 "d10fa0ea661abf2293337124b64e7d536c95f367"
+  url "https://github.com/nailsapp/command-line-tool/archive/0.5.0.tar.gz"
+  sha1 "82337529ddaf4788baaa020df9065e489d786f04"
 
   depends_on "git-flow"
   depends_on "composer"
+  depends_on "curl"
 
   def install
     prefix.install "nails"
