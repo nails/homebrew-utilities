@@ -2,12 +2,12 @@
 
 # Installation
 
-Tap this repository in order to downlaod these formula via brew
+Tap this repository in order to download these formula via Homebrew:
 
-    brew tap nailsapp/nailsapp
+    brew tap nailsapp/utilities
 
 ## Available Recipes
 
 ### `nails`
 
-The Nails command Line tool, will make your Nails life easy. More information available from [the tool's main repository](https://github.com/nailsapp/command-line-tool).
+The Nails Command Line Tool, will make your Nails life easy. More information available from [the tool's main repository](https://github.com/nailsapp/command-line-tool).
