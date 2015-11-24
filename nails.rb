@@ -2,8 +2,8 @@ require "formula"
 
 class Nails < Formula
   homepage "http://nailsapp.co.uk"
-  url "https://github.com/nailsapp/command-line-tool/archive/0.5.0.tar.gz"
-  sha1 "82337529ddaf4788baaa020df9065e489d786f04"
+  url "https://github.com/nailsapp/command-line-tool/archive/0.6.0.tar.gz"
+  sha1 "7628f482e4690111f32517901a272a060a6febf5"
 
   depends_on "git-flow"
   depends_on "composer"
