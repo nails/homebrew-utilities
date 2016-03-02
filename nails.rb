@@ -8,7 +8,6 @@ class Nails < Formula
   depends_on "git-flow"
   depends_on "composer"
   depends_on "curl"
-  depends_on "php"
 
   def install
     prefix.install "nails"
