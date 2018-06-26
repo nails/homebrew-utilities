@@ -3,7 +3,7 @@ require "formula"
 class Nails < Formula
   homepage "http://nailsapp.co.uk"
   url "https://github.com/nailsapp/command-line-tool/archive/0.9.0.tar.gz"
-  sha256 "194de4a602461c0382e3156068d1c12f897fab6564939efb8e2b687723b61a05"
+  sha256 "b4de51fcf6d2b989e701e34f3fdd4d03d66126efbf3e425784c72a4d87fcdb4f"
 
   depends_on "git-flow"
   depends_on "composer"
