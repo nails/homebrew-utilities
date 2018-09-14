@@ -2,11 +2,11 @@ require "formula"
 
 class Nails < Formula
   homepage "http://nailsapp.co.uk"
-  url "https://github.com/nails/command-line-tool/archive/0.10.2.tar.gz"
+  url "https://github.com/nails/command-line-tool/archive/0.10.3.tar.gz"
 
   # Generate hash of the above file
-  # curl -sL https://github.com/nails/command-line-tool/archive/0.10.2.tar.gz | shasum -a 256
-  sha256 "10fc0857213c14882d0f271dd677183b89af98ce2b425ed605f0a39e92cd803b"
+  # curl -sL https://github.com/nails/command-line-tool/archive/0.10.3.tar.gz | shasum -a 256
+  sha256 "bc5b029eacd94e35a0d41c6d7b17e13ee8d01ddadc9badcdc8f7c7db6d00df0e"
 
   depends_on "git-flow"
   depends_on "composer"
