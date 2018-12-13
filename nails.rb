@@ -9,6 +9,6 @@ class Nails < Formula
   sha256 "008175bd9e817f5c2036ca3e62880ad274e32284732ee9dfe0521d82faccfee9"
 
   def install
-    bin.install Dir[dist/"*"]
+    bin.install Dir["dist/*"]
   end
 end
