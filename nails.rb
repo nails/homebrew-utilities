@@ -2,11 +2,11 @@ require "formula"
 
 class Nails < Formula
   homepage "http://nailsapp.co.uk"
-  url "https://github.com/nails/command-line-tool/archive/1.1.2.tar.gz"
+  url "https://github.com/nails/command-line-tool/archive/1.1.3.tar.gz"
 
   # Generate hash of the above file
-  # curl -sL https://github.com/nails/command-line-tool/archive/1.1.2.tar.gz | shasum -a 256
-  sha256 "4c3a56b5d4a90d24d7a63599fde7b3c1dd17391be8b5b42dcbc8d32bca1cf59f"
+  # curl -sL https://github.com/nails/command-line-tool/archive/1.1.3.tar.gz | shasum -a 256
+  sha256 "b2366bc2096fde67e4767052861ebddde4309d9e63a516d04e00c765a54e2f1d"
 
   def install
     bin.install Dir["dist/*"]
