@@ -1,10 +1,10 @@
 class Nails < Formula
   desc "Command Line tool for Nails"
   homepage "https://nailsapp.co.uk"
-  url "https://github.com/nails/command-line-tool/archive/1.5.0.tar.gz"
+  url "https://github.com/nails/command-line-tool/archive/1.5.1.tar.gz"
   # Generate hash of the above file
-  # curl -sL https://github.com/nails/command-line-tool/archive/1.5.0.tar.gz | shasum -a 256
-  sha256 "805bf849a008549cd14079df8ae428b2e55a84c3d7695c7618db4857106ee66c"
+  # curl -sL https://github.com/nails/command-line-tool/archive/1.5.1.tar.gz | shasum -a 256
+  sha256 "41d879184b290c44f01140cf9494c69f5222214fa06f88df3049897033c52e19"
   license "MIT"
 
   # Optional: Uncomment if you want Homebrew to ensure PHP is installed
@@ -18,6 +18,6 @@ class Nails < Formula
 
   test do
     system "#{bin}/nails", "--version"
-    assert_match "Nails Command Line Tool 1.5.0", shell_output("#{bin}/nails --version")
+    assert_match "Nails Command Line Tool 1.5.1", shell_output("#{bin}/nails --version")
   end
 end
