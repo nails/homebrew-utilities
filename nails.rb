@@ -1,4 +1,4 @@
-Nails < Formula
+class Nails < Formula
   desc "Command Line tool for Nails"
   homepage "https://nailsapp.co.uk"
   url "https://github.com/nails/command-line-tool/archive/1.4.4.tar.gz"
